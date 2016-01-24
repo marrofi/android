@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="401dp"
+        android:layout_gravity="top"
+        android:background="@drawable/about"
+        android:fadingEdge="vertical"
+        android:scaleType="fitXY"
+        tools:ignore="Deprecated" >
+    </AbsoluteLayout>
+
+</ScrollView>

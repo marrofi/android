@@ -1,0 +1,82 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doaharian"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.doaharian.Awal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.doaharian.Menuawal"
+            android:label="menuawal" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.Menusc"
+            android:label="menu" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.about"
+            android:label="about" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d1"
+            android:label="Doa akan makan" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d2"
+            android:label="Doa Sesudah Makan" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d3"
+            android:label="Doa Akan Tidur" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d4"
+            android:label="Doa Bangun Tidur" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d5"
+            android:label="Doa Masuk Masjid" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d6"
+            android:label="Doa Keluar Masjid" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d7"
+            android:label="Doa Masuk Rumah" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d8"
+            android:label="Doa Keluar Rumah" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d9"
+            android:label="Doa Masuk Toilet" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.d10"
+            android:label="Doa Keluar Toilet" >
+        </activity>
+        <activity
+            android:name="com.example.doaharian.Doa"
+            android:label="" >
+        </activity>
+    </application>
+
+</manifest>

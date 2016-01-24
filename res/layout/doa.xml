@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/layar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical" >
+
+        <AbsoluteLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layar2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffffff"
+            android:fadingEdge="vertical"
+            android:scrollbars="vertical"
+            tools:ignore="Deprecated,MissingPrefix" >
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:fadingEdge="vertical"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitStart"
+                android:scrollbars="vertical"
+                android:src="@drawable/doasudahmakan"
+                tools:ignore="ContentDescription" >
+            </ImageView>
+
+            <ImageButton
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="68dip"
+                android:layout_y="520dip"
+                android:contentDescription="TODO"
+                android:paddingRight="10dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/play"
+                tools:ignore="PxUsage,ContentDescription,HardcodedText" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="144dip"
+                android:layout_y="520dip"
+                android:paddingRight="10dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/pause"
+                tools:ignore="ContentDescription" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="220dip"
+                android:layout_y="520dip"
+                android:paddingRight="10px"
+                android:scaleType="fitEnd"
+                android:src="@drawable/stop"
+                tools:ignore="PxUsage,ContentDescription" >
+            </ImageButton>
+        </AbsoluteLayout>
+    </RelativeLayout>
+
+</ScrollView>
